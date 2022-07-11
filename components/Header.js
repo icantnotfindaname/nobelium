@@ -84,7 +84,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                   />
                   <rect width="24" height="24" fill="url(#paint0_radial)" />
                   <defs>
-                    <radialGradient
+                    {/* <radialGradient
                       id="paint0_radial"
                       cx="0"
                       cy="0"
@@ -94,7 +94,8 @@ const Header = ({ navBarTitle, fullWidth }) => {
                     >
                       <stop stopColor="#CFCFCF" stopOpacity="0.6" />
                       <stop offset="1" stopColor="#E9E9E9" stopOpacity="0" />
-                    </radialGradient>
+                    </radialGradient> */}
+                    <img src="../public/favicon.svg" />
                   </defs>
                 </svg>
               </div>
@@ -108,7 +109,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
               )
             : (
             <p className="ml-2 font-medium text-day dark:text-night header-name">
-              {BLOG.title},{' '}
+              {BLOG.title}{' '}
               <span className="font-normal">{BLOG.description}</span>
             </p>
               )}
