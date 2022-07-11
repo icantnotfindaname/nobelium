@@ -91,7 +91,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                       <stop stopColor="#CFCFCF" stopOpacity="0.6" />
                       <stop offset="1" stopColor="#E9E9E9" stopOpacity="0" />
                     </radialGradient> */}
-                    <image id="paint0_svg" xlinkHref="../public.favicon.svg"/>
+                    <image id="paint0_svg" href="/favicon.svg"/>
                   </defs>
                   <rect
                     width="24"
