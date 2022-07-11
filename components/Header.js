@@ -77,11 +77,11 @@ const Header = ({ navBarTitle, fullWidth }) => {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  {/* <rect
+                  <rect
                     width="24"
                     height="24"
                     className="fill-current text-black dark:text-white"
-                  /> */}
+                  />
                   <rect width="24" height="24" fill="url(#paint0_svg)" />
                   <defs>
                     {/* <radialGradient
@@ -96,7 +96,6 @@ const Header = ({ navBarTitle, fullWidth }) => {
                       <stop offset="1" stopColor="#E9E9E9" stopOpacity="0" />
                     </radialGradient> */}
                     <img 
-
                       id="paint0_svg" 
                       src="https://lh3.googleusercontent.com/a-/AOh14Gg2T4cnkikXKO7Fj9dGOchkDPNf9jq1jmx8LjAj=s96-c" 
                     />
