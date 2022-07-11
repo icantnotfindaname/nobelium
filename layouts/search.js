@@ -29,7 +29,7 @@ const SearchLayout = ({ tags, posts, currentTag }) => {
         <svg
           className="absolute right-3 top-3 h-5 w-5 text-black dark:text-white"
           xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
