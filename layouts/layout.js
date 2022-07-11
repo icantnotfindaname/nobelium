@@ -42,7 +42,7 @@ const Layout = ({
                   alt={BLOG.author}
                   width={24}
                   height={24}
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Uranus_as_seen_by_NASA%27s_Voyager_2_%28remastered%29.png/440px-Uranus_as_seen_by_NASA%27s_Voyager_2_%28remastered%29.png"
+                  src="../public/Uranus.jpg"
                   className="rounded-full"
                 />
                 <p className="ml-2 md:block">{BLOG.author}</p>
