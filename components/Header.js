@@ -76,7 +76,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   {/* <rect width="24" height="24" fill="url(#paint0_svg)" /> */}
                   <defs>
@@ -93,7 +93,6 @@ const Header = ({ navBarTitle, fullWidth }) => {
                     </radialGradient> */}
                     <image id="paint0_svg" xlinkHref="../public.favicon.svg"/>
                   </defs>
-
                   <rect
                     width="24"
                     height="24"
