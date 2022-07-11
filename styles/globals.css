@@ -37,6 +37,24 @@
   src: url('/fonts/SourceSerif-Italic.var.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'Mulish';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/Mulish-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: 'Italic';
+  src: url('/fonts/Mulish-Italic.woff2') format('woff2');
+}
+
 html {
   --scrollbarBG: #ffffff00;
   --thumbBG: #b8b8b8;
