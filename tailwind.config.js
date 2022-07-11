@@ -26,6 +26,7 @@ module.exports = {
         sans: ['"Mulish"', ...fontFamily.sans, ...fontSansCJK],
         serif: ['"Source Serif"', ...fontFamily.serif, ...fontSerifCJK],
         noEmoji: [
+          '"Mulish"',
           '"IBM Plex Sans"',
           'ui-sans-serif',
           'system-ui',

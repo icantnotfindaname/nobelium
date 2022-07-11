@@ -37,14 +37,14 @@ class MyDocument extends Document {
             <>
               <link
                 rel="preload"
-                href="/fonts/IBMPlexSansVar-Roman.woff2"
+                href="/fonts/Mulish-Regular.woff2"
                 as="font"
                 type="font/woff2"
                 crossOrigin="anonymous"
               />
               <link
                 rel="preload"
-                href="/fonts/IBMPlexSansVar-Italic.woff2"
+                href="/fonts/Mulish-Italic.woff2"
                 as="font"
                 type="font/woff2"
                 crossOrigin="anonymous"
@@ -64,21 +64,21 @@ class MyDocument extends Document {
               <link
                 rel="preload"
                 as="style"
-                href={`https://fonts.googleapis.com/css2?family=Noto+${
-                  BLOG.font === 'serif' ? 'Serif' : 'Sans'
+                href={`https://fonts.googleapis.com/css2?family=${
+                  BLOG.font === 'serif' ? 'Noto+Serif' : 'Mulish'
                 }+${CJK()}:wght@400;500;700&display=swap`}
               />
               <link
                 rel="stylesheet"
-                href={`https://fonts.googleapis.com/css2?family=Noto+${
-                  BLOG.font === 'serif' ? 'Serif' : 'Sans'
+                href={`https://fonts.googleapis.com/css2?family${
+                  BLOG.font === 'serif' ? 'Noto+Serif' : 'Mulish'
                 }+${CJK()}:wght@400;500;700&display=swap`}
               />
               <noscript>
                 <link
                   rel="stylesheet"
-                  href={`https://fonts.googleapis.com/css2?family=Noto+${
-                    BLOG.font === 'serif' ? 'Serif' : 'Sans'
+                  href={`https://fonts.googleapis.com/css2?family${
+                    BLOG.font === 'serif' ? 'Noto+Serif' : 'Mulish'
                   }+${CJK()}:wght@400;500;700&display=swap`}
                 />
               </noscript>
