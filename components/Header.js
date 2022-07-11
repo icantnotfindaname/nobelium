@@ -100,7 +100,6 @@ const Header = ({ navBarTitle, fullWidth }) => {
                     className="fill-current text-black dark:text-white"
                     fill="url(#paint0_svg)"
                   />
-                  
                 </svg>
               </div>
             </a>
