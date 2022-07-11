@@ -97,7 +97,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                       <stop stopColor="#CFCFCF" stopOpacity="0.6" />
                       <stop offset="1" stopColor="#E9E9E9" stopOpacity="0" />
                     </radialGradient> */}
-                    <Image id="paint0_svg" src="https://lh3.googleusercontent.com/a-/AOh14Gg2T4cnkikXKO7Fj9dGOchkDPNf9jq1jmx8LjAj=s96-c" />
+                    <image id="paint0_svg" src="https://lh3.googleusercontent.com/a-/AOh14Gg2T4cnkikXKO7Fj9dGOchkDPNf9jq1jmx8LjAj=s96-c" />
                   </defs>
                 </svg>
               </div>
