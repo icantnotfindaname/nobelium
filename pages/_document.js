@@ -70,14 +70,14 @@ class MyDocument extends Document {
               />
               <link
                 rel="stylesheet"
-                href={`https://fonts.googleapis.com/css2?family${
+                href={`https://fonts.googleapis.com/css2?family=${
                   BLOG.font === 'serif' ? 'Noto+Serif' : 'Mulish'
                 }+${CJK()}:wght@400;500;700&display=swap`}
               />
               <noscript>
                 <link
                   rel="stylesheet"
-                  href={`https://fonts.googleapis.com/css2?family${
+                  href={`https://fonts.googleapis.com/css2?family=${
                     BLOG.font === 'serif' ? 'Noto+Serif' : 'Mulish'
                   }+${CJK()}:wght@400;500;700&display=swap`}
                 />
