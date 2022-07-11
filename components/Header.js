@@ -76,14 +76,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
                 >
-                  <rect
-                    width="24"
-                    height="24"
-                    className="fill-current text-black dark:text-white"
-                    fill="url(#paint0_svg)"
-                  />
                   {/* <rect width="24" height="24" fill="url(#paint0_svg)" /> */}
                   <defs>
                     {/* <radialGradient
@@ -97,8 +90,16 @@ const Header = ({ navBarTitle, fullWidth }) => {
                       <stop stopColor="#CFCFCF" stopOpacity="0.6" />
                       <stop offset="1" stopColor="#E9E9E9" stopOpacity="0" />
                     </radialGradient> */}
-                    <image id="paint0_svg" src="https://lh3.googleusercontent.com/a-/AOh14Gg2T4cnkikXKO7Fj9dGOchkDPNf9jq1jmx8LjAj=s96-c" />
+                    <image id="paint0_svg" xlink:href="https://lh3.googleusercontent.com/a-/AOh14Gg2T4cnkikXKO7Fj9dGOchkDPNf9jq1jmx8LjAj=s96-c" />
                   </defs>
+
+                  <rect
+                    width="24"
+                    height="24"
+                    className="fill-current text-black dark:text-white"
+                    fill="url(#paint0_svg)"
+                  />
+
                 </svg>
               </div>
             </a>
