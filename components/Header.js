@@ -81,6 +81,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                     width="24"
                     height="24"
                     className="fill-current text-black dark:text-white"
+                    fill="url(#paint0_svg)"
                   />
                   <rect width="24" height="24" fill="url(#paint0_svg)" />
                   <defs>
